@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 import aiosqlite
 from app.database import get_db
-from app.models import MealLogRequest, MealLogResponse, MealLogItemResponse, DayMealsResponse
+from app.models import MealLogRequest, MealLogResponse, MealLogItemResponse, DayMealsResponse, DaySummary, HistoryResponse
 
 router = APIRouter()
 
@@ -66,6 +66,34 @@ async def create_meal(request: MealLogRequest, db: aiosqlite.Connection = Depend
 
     await db.commit()
     return await _fetch_meal_log(db, meal_log_id)
+
+
+@router.get("/meals/history", response_model=HistoryResponse)
+async def get_meal_history(offset: int = 0, limit: int = 20, db: aiosqlite.Connection = Depends(get_db)):
+    """Get paginated meal history grouped by date, newest first."""
+    # Fetch limit+1 dates to determine has_more
+    async with db.execute(
+        "SELECT DISTINCT date FROM meal_logs ORDER BY date DESC LIMIT ? OFFSET ?",
+        (limit + 1, offset),
+    ) as cursor:
+        date_rows = await cursor.fetchall()
+
+    has_more = len(date_rows) > limit
+    dates = [row["date"] for row in date_rows[:limit]]
+
+    days = []
+    for date in dates:
+        async with db.execute(
+            "SELECT id FROM meal_logs WHERE date = ? ORDER BY created_at DESC",
+            (date,),
+        ) as cursor:
+            meal_rows = await cursor.fetchall()
+
+        meals = [await _fetch_meal_log(db, row["id"]) for row in meal_rows]
+        total_calories = round(sum(item.calories for meal in meals for item in meal.items), 2)
+        days.append(DaySummary(date=date, total_calories=total_calories, meals=meals))
+
+    return HistoryResponse(days=days, has_more=has_more)
 
 
 @router.get("/meals", response_model=DayMealsResponse)

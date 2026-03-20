@@ -83,3 +83,16 @@ class DayMealsResponse(BaseModel):
     date: str
     meals: list[MealLogResponse]
     total_calories: float
+
+
+# --- Meal History ---
+
+class DaySummary(BaseModel):
+    date: str
+    total_calories: float
+    meals: list[MealLogResponse]
+
+
+class HistoryResponse(BaseModel):
+    days: list[DaySummary]
+    has_more: bool

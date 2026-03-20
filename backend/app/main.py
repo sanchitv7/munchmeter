@@ -2,6 +2,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 import os
 
 from app.database import init_db
@@ -43,6 +44,11 @@ async def health():
 
 
 # Serve frontend if it exists
-frontend_path = os.path.join(os.path.dirname(__file__), "../../frontend")
-if os.path.isdir(frontend_path):
-    app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
+frontend_dist = os.path.join(os.path.dirname(__file__), "../../frontend/dist")
+if os.path.isdir(frontend_dist):
+    app.mount("/assets", StaticFiles(directory=os.path.join(frontend_dist, "assets")), name="assets")
+
+    @app.get("/{path:path}")
+    async def spa_catch_all(path: str):
+        """Serve index.html for all non-API routes (SPA client-side routing)."""
+        return FileResponse(os.path.join(frontend_dist, "index.html"))

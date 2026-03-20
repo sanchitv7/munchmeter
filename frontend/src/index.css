@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Design tokens */
+@theme {
+  --color-background: #F8F7FC;
+  --color-surface: #FFFFFF;
+  --color-accent: #7C5CFC;
+  --color-secondary: #FF9F7C;
+  --color-text: #2D2B3D;
+  --color-muted: #9896A8;
+  --color-success: #4ADE80;
+
+  --font-sans: 'DM Sans', sans-serif;
+
+  --radius-card: 20px;
+  --radius-pill: 9999px;
+
+  --shadow-card: 0 4px 12px rgba(124, 92, 252, 0.08);
+  --shadow-elevated: 0 8px 24px rgba(124, 92, 252, 0.16);
+}
