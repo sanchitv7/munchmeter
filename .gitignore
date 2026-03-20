@@ -40,7 +40,8 @@ Thumbs.db
 # Node (for Phase 2 frontend)
 node_modules/
 .next/
-dist/
+frontend/dist/
+frontend/node_modules/
 
 # Worktrees
 .worktrees/
