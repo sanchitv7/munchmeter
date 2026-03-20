@@ -32,6 +32,14 @@ def _meal_payload(date: str, meal_slot: str = "lunch", calories: float = 200.0) 
 
 @pytest_asyncio.fixture
 async def client():
+    from app.database import get_db
+
+    # Clean all meal data before each test
+    async for db in get_db():
+        await db.execute("DELETE FROM meal_log_items")
+        await db.execute("DELETE FROM meal_logs")
+        await db.commit()
+
     transport = ASGITransport(app=app)
     async with AsyncClient(transport=transport, base_url="http://test") as ac:
         yield ac
