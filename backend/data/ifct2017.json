@@ -1,0 +1,1717 @@
+{
+  "A001": {
+    "name": "Rice, milled, raw",
+    "aliases": [
+      "rice",
+      "white rice",
+      "chawal",
+      "boiled rice",
+      "cooked rice",
+      "steamed rice"
+    ],
+    "energy_kcal": 345.0,
+    "protein_g": 6.8,
+    "carb_g": 78.2,
+    "fat_g": 0.5
+  },
+  "A002": {
+    "name": "Rice, parboiled, raw",
+    "aliases": [
+      "parboiled rice",
+      "ukda chawal",
+      "sella rice"
+    ],
+    "energy_kcal": 349.0,
+    "protein_g": 7.5,
+    "carb_g": 77.4,
+    "fat_g": 0.4
+  },
+  "A003": {
+    "name": "Rice, brown, raw",
+    "aliases": [
+      "brown rice",
+      "whole grain rice"
+    ],
+    "energy_kcal": 362.0,
+    "protein_g": 7.9,
+    "carb_g": 76.0,
+    "fat_g": 2.7
+  },
+  "A004": {
+    "name": "Wheat flour, whole meal",
+    "aliases": [
+      "atta",
+      "whole wheat flour",
+      "wheat flour",
+      "chakki atta",
+      "gehun atta"
+    ],
+    "energy_kcal": 341.0,
+    "protein_g": 12.1,
+    "carb_g": 69.4,
+    "fat_g": 1.7
+  },
+  "A005": {
+    "name": "Wheat flour, refined (maida)",
+    "aliases": [
+      "maida",
+      "refined flour",
+      "all purpose flour",
+      "plain flour"
+    ],
+    "energy_kcal": 348.0,
+    "protein_g": 10.3,
+    "carb_g": 73.9,
+    "fat_g": 0.9
+  },
+  "A006": {
+    "name": "Semolina (suji)",
+    "aliases": [
+      "suji",
+      "sooji",
+      "semolina",
+      "rava"
+    ],
+    "energy_kcal": 349.0,
+    "protein_g": 10.4,
+    "carb_g": 73.4,
+    "fat_g": 0.8
+  },
+  "A007": {
+    "name": "Oats",
+    "aliases": [
+      "oats",
+      "oatmeal",
+      "rolled oats",
+      "quaker oats"
+    ],
+    "energy_kcal": 372.0,
+    "protein_g": 11.7,
+    "carb_g": 60.5,
+    "fat_g": 7.0
+  },
+  "A008": {
+    "name": "Jowar (sorghum)",
+    "aliases": [
+      "jowar",
+      "sorghum",
+      "jwari"
+    ],
+    "energy_kcal": 349.0,
+    "protein_g": 10.4,
+    "carb_g": 72.6,
+    "fat_g": 1.9
+  },
+  "A009": {
+    "name": "Bajra (pearl millet)",
+    "aliases": [
+      "bajra",
+      "pearl millet",
+      "bajri"
+    ],
+    "energy_kcal": 361.0,
+    "protein_g": 11.6,
+    "carb_g": 67.5,
+    "fat_g": 5.0
+  },
+  "A010": {
+    "name": "Ragi (finger millet)",
+    "aliases": [
+      "ragi",
+      "finger millet",
+      "nachni",
+      "mandua"
+    ],
+    "energy_kcal": 328.0,
+    "protein_g": 7.7,
+    "carb_g": 66.8,
+    "fat_g": 1.5
+  },
+  "A011": {
+    "name": "Maize (corn)",
+    "aliases": [
+      "maize",
+      "corn",
+      "makka",
+      "makki",
+      "bhutta"
+    ],
+    "energy_kcal": 342.0,
+    "protein_g": 8.8,
+    "carb_g": 73.0,
+    "fat_g": 3.6
+  },
+  "A012": {
+    "name": "Poha (flattened rice)",
+    "aliases": [
+      "poha",
+      "beaten rice",
+      "chivda",
+      "flattened rice",
+      "avalakki"
+    ],
+    "energy_kcal": 346.0,
+    "protein_g": 6.6,
+    "carb_g": 77.3,
+    "fat_g": 0.6
+  },
+  "A020": {
+    "name": "Chapati / Roti (whole wheat)",
+    "aliases": [
+      "chapati",
+      "roti",
+      "chapatti",
+      "phulka",
+      "fulka"
+    ],
+    "energy_kcal": 265.0,
+    "protein_g": 8.0,
+    "carb_g": 52.0,
+    "fat_g": 3.7
+  },
+  "A021": {
+    "name": "Paratha (plain, wheat)",
+    "aliases": [
+      "paratha",
+      "parantha",
+      "plain paratha"
+    ],
+    "energy_kcal": 300.0,
+    "protein_g": 7.2,
+    "carb_g": 45.0,
+    "fat_g": 10.5
+  },
+  "A022": {
+    "name": "Naan (leavened bread)",
+    "aliases": [
+      "naan",
+      "nan",
+      "tandoori naan"
+    ],
+    "energy_kcal": 310.0,
+    "protein_g": 9.0,
+    "carb_g": 57.0,
+    "fat_g": 5.1
+  },
+  "A023": {
+    "name": "Puri (deep fried wheat bread)",
+    "aliases": [
+      "puri",
+      "poori"
+    ],
+    "energy_kcal": 400.0,
+    "protein_g": 7.8,
+    "carb_g": 50.0,
+    "fat_g": 18.0
+  },
+  "B001": {
+    "name": "Red lentil (masoor dal)",
+    "aliases": [
+      "masoor dal",
+      "masoor",
+      "red lentil",
+      "lentil",
+      "masur dal"
+    ],
+    "energy_kcal": 343.0,
+    "protein_g": 25.1,
+    "carb_g": 59.0,
+    "fat_g": 0.5
+  },
+  "B002": {
+    "name": "Toor / Arhar dal",
+    "aliases": [
+      "toor dal",
+      "arhar dal",
+      "tuvar dal",
+      "split pigeon pea",
+      "pigeon pea"
+    ],
+    "energy_kcal": 335.0,
+    "protein_g": 22.3,
+    "carb_g": 57.6,
+    "fat_g": 1.7
+  },
+  "B003": {
+    "name": "Moong dal (split yellow)",
+    "aliases": [
+      "moong dal",
+      "mung dal",
+      "yellow moong",
+      "moong",
+      "green gram dal"
+    ],
+    "energy_kcal": 330.0,
+    "protein_g": 24.0,
+    "carb_g": 56.7,
+    "fat_g": 1.3
+  },
+  "B004": {
+    "name": "Chana dal (split Bengal gram)",
+    "aliases": [
+      "chana dal",
+      "bengal gram dal",
+      "gram dal",
+      "split chickpea"
+    ],
+    "energy_kcal": 372.0,
+    "protein_g": 20.8,
+    "carb_g": 59.8,
+    "fat_g": 5.6
+  },
+  "B005": {
+    "name": "Urad dal (split black gram)",
+    "aliases": [
+      "urad dal",
+      "black gram dal",
+      "white lentil",
+      "dhuli urad"
+    ],
+    "energy_kcal": 341.0,
+    "protein_g": 25.1,
+    "carb_g": 59.6,
+    "fat_g": 1.4
+  },
+  "B006": {
+    "name": "Rajma (kidney beans)",
+    "aliases": [
+      "rajma",
+      "kidney beans",
+      "red kidney beans"
+    ],
+    "energy_kcal": 333.0,
+    "protein_g": 22.9,
+    "carb_g": 60.6,
+    "fat_g": 1.3
+  },
+  "B007": {
+    "name": "Chickpeas (kabuli chana)",
+    "aliases": [
+      "chickpeas",
+      "kabuli chana",
+      "white chickpea",
+      "chhole",
+      "chole"
+    ],
+    "energy_kcal": 360.0,
+    "protein_g": 17.1,
+    "carb_g": 61.0,
+    "fat_g": 5.0
+  },
+  "B008": {
+    "name": "Black chickpea (kala chana)",
+    "aliases": [
+      "kala chana",
+      "black chickpea",
+      "desi chana",
+      "brown chickpea"
+    ],
+    "energy_kcal": 372.0,
+    "protein_g": 17.1,
+    "carb_g": 60.9,
+    "fat_g": 5.3
+  },
+  "B009": {
+    "name": "Lobia (black-eyed pea)",
+    "aliases": [
+      "lobia",
+      "black eyed peas",
+      "chawli",
+      "cowpea"
+    ],
+    "energy_kcal": 323.0,
+    "protein_g": 23.4,
+    "carb_g": 54.5,
+    "fat_g": 1.8
+  },
+  "B010": {
+    "name": "Soya bean",
+    "aliases": [
+      "soybean",
+      "soya bean",
+      "soya",
+      "edamame"
+    ],
+    "energy_kcal": 432.0,
+    "protein_g": 43.2,
+    "carb_g": 20.9,
+    "fat_g": 19.5
+  },
+  "C001": {
+    "name": "Milk, cow, whole",
+    "aliases": [
+      "milk",
+      "cow milk",
+      "whole milk",
+      "doodh",
+      "full fat milk"
+    ],
+    "energy_kcal": 67.0,
+    "protein_g": 3.2,
+    "carb_g": 4.7,
+    "fat_g": 4.1
+  },
+  "C002": {
+    "name": "Milk, buffalo, whole",
+    "aliases": [
+      "buffalo milk",
+      "bhains ka doodh"
+    ],
+    "energy_kcal": 117.0,
+    "protein_g": 4.3,
+    "carb_g": 5.2,
+    "fat_g": 8.0
+  },
+  "C003": {
+    "name": "Yogurt (curd)",
+    "aliases": [
+      "yogurt",
+      "curd",
+      "dahi",
+      "plain yogurt",
+      "set curd"
+    ],
+    "energy_kcal": 60.0,
+    "protein_g": 3.1,
+    "carb_g": 4.0,
+    "fat_g": 3.3
+  },
+  "C004": {
+    "name": "Paneer (Indian cottage cheese)",
+    "aliases": [
+      "paneer",
+      "cottage cheese",
+      "indian cottage cheese",
+      "fresh paneer"
+    ],
+    "energy_kcal": 265.0,
+    "protein_g": 18.3,
+    "carb_g": 1.2,
+    "fat_g": 20.8
+  },
+  "C005": {
+    "name": "Ghee (clarified butter)",
+    "aliases": [
+      "ghee",
+      "clarified butter",
+      "desi ghee"
+    ],
+    "energy_kcal": 900.0,
+    "protein_g": 0.0,
+    "carb_g": 0.0,
+    "fat_g": 100.0
+  },
+  "C006": {
+    "name": "Butter",
+    "aliases": [
+      "butter",
+      "makhan",
+      "white butter"
+    ],
+    "energy_kcal": 730.0,
+    "protein_g": 0.5,
+    "carb_g": 0.5,
+    "fat_g": 81.0
+  },
+  "C007": {
+    "name": "Cream",
+    "aliases": [
+      "cream",
+      "malai",
+      "fresh cream"
+    ],
+    "energy_kcal": 340.0,
+    "protein_g": 2.3,
+    "carb_g": 3.4,
+    "fat_g": 35.0
+  },
+  "C008": {
+    "name": "Khoa / Mawa",
+    "aliases": [
+      "khoa",
+      "mawa",
+      "khoya",
+      "evaporated milk solid"
+    ],
+    "energy_kcal": 421.0,
+    "protein_g": 20.0,
+    "carb_g": 26.7,
+    "fat_g": 25.9
+  },
+  "C009": {
+    "name": "Lassi (buttermilk)",
+    "aliases": [
+      "lassi",
+      "buttermilk",
+      "chaas",
+      "chhaas"
+    ],
+    "energy_kcal": 40.0,
+    "protein_g": 3.4,
+    "carb_g": 4.2,
+    "fat_g": 1.0
+  },
+  "D001": {
+    "name": "Potato",
+    "aliases": [
+      "potato",
+      "aloo",
+      "alu",
+      "boiled potato"
+    ],
+    "energy_kcal": 97.0,
+    "protein_g": 1.6,
+    "carb_g": 22.6,
+    "fat_g": 0.1
+  },
+  "D002": {
+    "name": "Onion",
+    "aliases": [
+      "onion",
+      "pyaaz",
+      "pyaz",
+      "kanda"
+    ],
+    "energy_kcal": 50.0,
+    "protein_g": 1.2,
+    "carb_g": 11.1,
+    "fat_g": 0.1
+  },
+  "D003": {
+    "name": "Tomato",
+    "aliases": [
+      "tomato",
+      "tamatar",
+      "tamaatar"
+    ],
+    "energy_kcal": 20.0,
+    "protein_g": 0.9,
+    "carb_g": 3.6,
+    "fat_g": 0.2
+  },
+  "D004": {
+    "name": "Spinach",
+    "aliases": [
+      "spinach",
+      "palak",
+      "palak saag"
+    ],
+    "energy_kcal": 26.0,
+    "protein_g": 2.0,
+    "carb_g": 2.9,
+    "fat_g": 0.7
+  },
+  "D005": {
+    "name": "Cauliflower",
+    "aliases": [
+      "cauliflower",
+      "gobi",
+      "phool gobi",
+      "gobhi"
+    ],
+    "energy_kcal": 30.0,
+    "protein_g": 2.6,
+    "carb_g": 4.0,
+    "fat_g": 0.4
+  },
+  "D006": {
+    "name": "Brinjal (eggplant)",
+    "aliases": [
+      "brinjal",
+      "eggplant",
+      "baingan",
+      "begun"
+    ],
+    "energy_kcal": 24.0,
+    "protein_g": 1.4,
+    "carb_g": 4.0,
+    "fat_g": 0.3
+  },
+  "D007": {
+    "name": "Cabbage",
+    "aliases": [
+      "cabbage",
+      "patta gobi",
+      "bandh gobi"
+    ],
+    "energy_kcal": 27.0,
+    "protein_g": 1.8,
+    "carb_g": 4.6,
+    "fat_g": 0.1
+  },
+  "D008": {
+    "name": "Peas",
+    "aliases": [
+      "peas",
+      "matar",
+      "green peas",
+      "garden peas"
+    ],
+    "energy_kcal": 93.0,
+    "protein_g": 7.2,
+    "carb_g": 15.9,
+    "fat_g": 0.4
+  },
+  "D009": {
+    "name": "Okra (ladyfinger)",
+    "aliases": [
+      "okra",
+      "ladyfinger",
+      "bhindi",
+      "bhindi sabzi"
+    ],
+    "energy_kcal": 35.0,
+    "protein_g": 1.9,
+    "carb_g": 6.4,
+    "fat_g": 0.2
+  },
+  "D010": {
+    "name": "Bitter gourd",
+    "aliases": [
+      "bitter gourd",
+      "karela",
+      "bitter melon",
+      "kerala"
+    ],
+    "energy_kcal": 25.0,
+    "protein_g": 1.6,
+    "carb_g": 4.2,
+    "fat_g": 0.2
+  },
+  "D011": {
+    "name": "Ridge gourd",
+    "aliases": [
+      "ridge gourd",
+      "turai",
+      "torai",
+      "tori"
+    ],
+    "energy_kcal": 17.0,
+    "protein_g": 0.5,
+    "carb_g": 3.4,
+    "fat_g": 0.1
+  },
+  "D012": {
+    "name": "Bottle gourd",
+    "aliases": [
+      "bottle gourd",
+      "lauki",
+      "ghia",
+      "dudhi"
+    ],
+    "energy_kcal": 12.0,
+    "protein_g": 0.2,
+    "carb_g": 2.5,
+    "fat_g": 0.1
+  },
+  "D013": {
+    "name": "Drumstick (moringa)",
+    "aliases": [
+      "drumstick",
+      "sahjan",
+      "moringa",
+      "munakka"
+    ],
+    "energy_kcal": 26.0,
+    "protein_g": 2.5,
+    "carb_g": 3.7,
+    "fat_g": 0.1
+  },
+  "D014": {
+    "name": "Fenugreek leaves (methi)",
+    "aliases": [
+      "methi",
+      "fenugreek leaves",
+      "methi saag"
+    ],
+    "energy_kcal": 49.0,
+    "protein_g": 4.4,
+    "carb_g": 6.0,
+    "fat_g": 0.9
+  },
+  "D015": {
+    "name": "Carrot",
+    "aliases": [
+      "carrot",
+      "gajar"
+    ],
+    "energy_kcal": 48.0,
+    "protein_g": 0.9,
+    "carb_g": 10.6,
+    "fat_g": 0.2
+  },
+  "D016": {
+    "name": "Cucumber",
+    "aliases": [
+      "cucumber",
+      "kheera",
+      "kakdi"
+    ],
+    "energy_kcal": 13.0,
+    "protein_g": 0.4,
+    "carb_g": 2.5,
+    "fat_g": 0.1
+  },
+  "D017": {
+    "name": "Capsicum (bell pepper)",
+    "aliases": [
+      "capsicum",
+      "bell pepper",
+      "shimla mirch",
+      "sweet pepper"
+    ],
+    "energy_kcal": 24.0,
+    "protein_g": 1.3,
+    "carb_g": 4.3,
+    "fat_g": 0.3
+  },
+  "D018": {
+    "name": "Sweet potato",
+    "aliases": [
+      "sweet potato",
+      "shakarkand",
+      "shakara kand"
+    ],
+    "energy_kcal": 120.0,
+    "protein_g": 1.6,
+    "carb_g": 28.2,
+    "fat_g": 0.1
+  },
+  "D019": {
+    "name": "Pumpkin",
+    "aliases": [
+      "pumpkin",
+      "kaddu",
+      "petha",
+      "sitaphal"
+    ],
+    "energy_kcal": 25.0,
+    "protein_g": 1.4,
+    "carb_g": 4.6,
+    "fat_g": 0.1
+  },
+  "D020": {
+    "name": "Radish",
+    "aliases": [
+      "radish",
+      "mooli",
+      "muli"
+    ],
+    "energy_kcal": 17.0,
+    "protein_g": 0.7,
+    "carb_g": 3.4,
+    "fat_g": 0.1
+  },
+  "D021": {
+    "name": "Taro (colocasia)",
+    "aliases": [
+      "taro",
+      "arbi",
+      "colocasia",
+      "arvi"
+    ],
+    "energy_kcal": 97.0,
+    "protein_g": 3.0,
+    "carb_g": 21.1,
+    "fat_g": 0.1
+  },
+  "D022": {
+    "name": "Yam (suran)",
+    "aliases": [
+      "yam",
+      "suran",
+      "jimikand",
+      "elephant yam"
+    ],
+    "energy_kcal": 79.0,
+    "protein_g": 2.0,
+    "carb_g": 18.4,
+    "fat_g": 0.1
+  },
+  "E001": {
+    "name": "Banana",
+    "aliases": [
+      "banana",
+      "kela",
+      "kele"
+    ],
+    "energy_kcal": 89.0,
+    "protein_g": 1.1,
+    "carb_g": 22.8,
+    "fat_g": 0.3
+  },
+  "E002": {
+    "name": "Mango",
+    "aliases": [
+      "mango",
+      "aam",
+      "kachcha aam"
+    ],
+    "energy_kcal": 74.0,
+    "protein_g": 0.6,
+    "carb_g": 17.0,
+    "fat_g": 0.4
+  },
+  "E003": {
+    "name": "Apple",
+    "aliases": [
+      "apple",
+      "seb"
+    ],
+    "energy_kcal": 59.0,
+    "protein_g": 0.2,
+    "carb_g": 13.4,
+    "fat_g": 0.5
+  },
+  "E004": {
+    "name": "Orange",
+    "aliases": [
+      "orange",
+      "santra",
+      "narangi",
+      "mosumbi"
+    ],
+    "energy_kcal": 53.0,
+    "protein_g": 0.7,
+    "carb_g": 11.6,
+    "fat_g": 0.2
+  },
+  "E005": {
+    "name": "Guava",
+    "aliases": [
+      "guava",
+      "amrood",
+      "amrud"
+    ],
+    "energy_kcal": 51.0,
+    "protein_g": 0.9,
+    "carb_g": 11.2,
+    "fat_g": 0.3
+  },
+  "E006": {
+    "name": "Papaya",
+    "aliases": [
+      "papaya",
+      "papita"
+    ],
+    "energy_kcal": 32.0,
+    "protein_g": 0.6,
+    "carb_g": 7.2,
+    "fat_g": 0.1
+  },
+  "E007": {
+    "name": "Pomegranate",
+    "aliases": [
+      "pomegranate",
+      "anar"
+    ],
+    "energy_kcal": 83.0,
+    "protein_g": 1.7,
+    "carb_g": 18.7,
+    "fat_g": 1.2
+  },
+  "E008": {
+    "name": "Grapes",
+    "aliases": [
+      "grapes",
+      "angoor"
+    ],
+    "energy_kcal": 71.0,
+    "protein_g": 0.7,
+    "carb_g": 16.7,
+    "fat_g": 0.4
+  },
+  "E009": {
+    "name": "Watermelon",
+    "aliases": [
+      "watermelon",
+      "tarbuj",
+      "tarbooz"
+    ],
+    "energy_kcal": 32.0,
+    "protein_g": 0.6,
+    "carb_g": 7.2,
+    "fat_g": 0.2
+  },
+  "E010": {
+    "name": "Coconut, fresh",
+    "aliases": [
+      "coconut",
+      "nariyal",
+      "fresh coconut",
+      "grated coconut"
+    ],
+    "energy_kcal": 354.0,
+    "protein_g": 3.4,
+    "carb_g": 15.2,
+    "fat_g": 33.5
+  },
+  "F001": {
+    "name": "Egg, whole, hen",
+    "aliases": [
+      "egg",
+      "eggs",
+      "hen egg",
+      "chicken egg",
+      "anda",
+      "ande"
+    ],
+    "energy_kcal": 173.0,
+    "protein_g": 13.3,
+    "carb_g": 0.0,
+    "fat_g": 13.3
+  },
+  "F002": {
+    "name": "Egg white",
+    "aliases": [
+      "egg white",
+      "egg whites",
+      "albumen"
+    ],
+    "energy_kcal": 48.0,
+    "protein_g": 11.0,
+    "carb_g": 0.7,
+    "fat_g": 0.0
+  },
+  "F003": {
+    "name": "Egg yolk",
+    "aliases": [
+      "egg yolk",
+      "yolk"
+    ],
+    "energy_kcal": 363.0,
+    "protein_g": 16.0,
+    "carb_g": 0.7,
+    "fat_g": 32.0
+  },
+  "F004": {
+    "name": "Chicken, breast, raw",
+    "aliases": [
+      "chicken breast",
+      "chicken",
+      "murgi",
+      "murg"
+    ],
+    "energy_kcal": 165.0,
+    "protein_g": 31.0,
+    "carb_g": 0.0,
+    "fat_g": 3.6
+  },
+  "F005": {
+    "name": "Mutton (goat meat)",
+    "aliases": [
+      "mutton",
+      "goat meat",
+      "bakra",
+      "lamb"
+    ],
+    "energy_kcal": 118.0,
+    "protein_g": 21.4,
+    "carb_g": 0.0,
+    "fat_g": 3.6
+  },
+  "F006": {
+    "name": "Fish, rohu",
+    "aliases": [
+      "rohu",
+      "rohu fish",
+      "rui",
+      "rohu curry"
+    ],
+    "energy_kcal": 97.0,
+    "protein_g": 16.6,
+    "carb_g": 0.0,
+    "fat_g": 3.3
+  },
+  "F007": {
+    "name": "Fish, catla",
+    "aliases": [
+      "catla",
+      "catla fish",
+      "katla"
+    ],
+    "energy_kcal": 116.0,
+    "protein_g": 19.0,
+    "carb_g": 0.0,
+    "fat_g": 3.9
+  },
+  "F008": {
+    "name": "Prawn / Shrimp",
+    "aliases": [
+      "prawn",
+      "shrimp",
+      "jhinga",
+      "chingri"
+    ],
+    "energy_kcal": 89.0,
+    "protein_g": 17.8,
+    "carb_g": 0.0,
+    "fat_g": 1.7
+  },
+  "G001": {
+    "name": "Groundnut (peanut)",
+    "aliases": [
+      "peanut",
+      "groundnut",
+      "moongfali",
+      "mungfali"
+    ],
+    "energy_kcal": 567.0,
+    "protein_g": 25.8,
+    "carb_g": 16.1,
+    "fat_g": 49.2
+  },
+  "G002": {
+    "name": "Cashew nut",
+    "aliases": [
+      "cashew",
+      "cashew nut",
+      "kaju"
+    ],
+    "energy_kcal": 596.0,
+    "protein_g": 21.2,
+    "carb_g": 22.3,
+    "fat_g": 46.9
+  },
+  "G003": {
+    "name": "Almond",
+    "aliases": [
+      "almond",
+      "badam",
+      "almonds"
+    ],
+    "energy_kcal": 598.0,
+    "protein_g": 21.2,
+    "carb_g": 10.9,
+    "fat_g": 52.5
+  },
+  "G004": {
+    "name": "Walnut",
+    "aliases": [
+      "walnut",
+      "akhrot"
+    ],
+    "energy_kcal": 694.0,
+    "protein_g": 14.7,
+    "carb_g": 14.3,
+    "fat_g": 64.5
+  },
+  "G005": {
+    "name": "Pistachio",
+    "aliases": [
+      "pistachio",
+      "pista",
+      "pistachios"
+    ],
+    "energy_kcal": 557.0,
+    "protein_g": 20.2,
+    "carb_g": 27.7,
+    "fat_g": 44.4
+  },
+  "G006": {
+    "name": "Sesame seeds",
+    "aliases": [
+      "sesame",
+      "sesame seeds",
+      "til"
+    ],
+    "energy_kcal": 563.0,
+    "protein_g": 18.0,
+    "carb_g": 25.7,
+    "fat_g": 43.3
+  },
+  "G007": {
+    "name": "Flaxseed",
+    "aliases": [
+      "flaxseed",
+      "flax seeds",
+      "alsi"
+    ],
+    "energy_kcal": 534.0,
+    "protein_g": 18.3,
+    "carb_g": 28.9,
+    "fat_g": 42.2
+  },
+  "H001": {
+    "name": "Groundnut oil",
+    "aliases": [
+      "groundnut oil",
+      "peanut oil",
+      "moongfali ka tel"
+    ],
+    "energy_kcal": 900.0,
+    "protein_g": 0.0,
+    "carb_g": 0.0,
+    "fat_g": 100.0
+  },
+  "H002": {
+    "name": "Mustard oil",
+    "aliases": [
+      "mustard oil",
+      "sarson ka tel",
+      "sarson oil"
+    ],
+    "energy_kcal": 884.0,
+    "protein_g": 0.0,
+    "carb_g": 0.0,
+    "fat_g": 98.2
+  },
+  "H003": {
+    "name": "Coconut oil",
+    "aliases": [
+      "coconut oil",
+      "nariyal tel",
+      "nariyal ka tel"
+    ],
+    "energy_kcal": 892.0,
+    "protein_g": 0.0,
+    "carb_g": 0.0,
+    "fat_g": 99.1
+  },
+  "H004": {
+    "name": "Sunflower oil",
+    "aliases": [
+      "sunflower oil",
+      "surajmukhi ka tel"
+    ],
+    "energy_kcal": 884.0,
+    "protein_g": 0.0,
+    "carb_g": 0.0,
+    "fat_g": 98.2
+  },
+  "H005": {
+    "name": "Olive oil",
+    "aliases": [
+      "olive oil",
+      "jaitun ka tel"
+    ],
+    "energy_kcal": 884.0,
+    "protein_g": 0.0,
+    "carb_g": 0.0,
+    "fat_g": 98.0
+  },
+  "I001": {
+    "name": "Turmeric powder",
+    "aliases": [
+      "turmeric",
+      "haldi",
+      "turmeric powder"
+    ],
+    "energy_kcal": 354.0,
+    "protein_g": 7.8,
+    "carb_g": 64.9,
+    "fat_g": 9.9
+  },
+  "I002": {
+    "name": "Chilli powder (red)",
+    "aliases": [
+      "chilli powder",
+      "red chilli powder",
+      "lal mirch",
+      "mirchi powder"
+    ],
+    "energy_kcal": 282.0,
+    "protein_g": 12.0,
+    "carb_g": 53.6,
+    "fat_g": 7.0
+  },
+  "I003": {
+    "name": "Coriander powder",
+    "aliases": [
+      "coriander powder",
+      "dhania powder",
+      "dhania"
+    ],
+    "energy_kcal": 298.0,
+    "protein_g": 12.4,
+    "carb_g": 54.9,
+    "fat_g": 3.8
+  },
+  "I004": {
+    "name": "Cumin seeds",
+    "aliases": [
+      "cumin",
+      "jeera",
+      "cumin seeds",
+      "zeera"
+    ],
+    "energy_kcal": 375.0,
+    "protein_g": 17.8,
+    "carb_g": 44.2,
+    "fat_g": 22.3
+  },
+  "I005": {
+    "name": "Garam masala",
+    "aliases": [
+      "garam masala"
+    ],
+    "energy_kcal": 379.0,
+    "protein_g": 12.7,
+    "carb_g": 50.4,
+    "fat_g": 15.0
+  },
+  "I006": {
+    "name": "Ginger (fresh)",
+    "aliases": [
+      "ginger",
+      "adrak",
+      "fresh ginger"
+    ],
+    "energy_kcal": 80.0,
+    "protein_g": 1.9,
+    "carb_g": 17.8,
+    "fat_g": 0.8
+  },
+  "I007": {
+    "name": "Garlic",
+    "aliases": [
+      "garlic",
+      "lahsun",
+      "lahasun"
+    ],
+    "energy_kcal": 149.0,
+    "protein_g": 6.4,
+    "carb_g": 33.1,
+    "fat_g": 0.5
+  },
+  "I008": {
+    "name": "Salt",
+    "aliases": [
+      "salt",
+      "namak"
+    ],
+    "energy_kcal": 0.0,
+    "protein_g": 0.0,
+    "carb_g": 0.0,
+    "fat_g": 0.0
+  },
+  "I009": {
+    "name": "Sugar",
+    "aliases": [
+      "sugar",
+      "cheeni",
+      "shakkar",
+      "table sugar"
+    ],
+    "energy_kcal": 400.0,
+    "protein_g": 0.0,
+    "carb_g": 99.9,
+    "fat_g": 0.0
+  },
+  "I010": {
+    "name": "Jaggery",
+    "aliases": [
+      "jaggery",
+      "gur",
+      "gud"
+    ],
+    "energy_kcal": 383.0,
+    "protein_g": 0.4,
+    "carb_g": 95.0,
+    "fat_g": 0.1
+  },
+  "I011": {
+    "name": "Honey",
+    "aliases": [
+      "honey",
+      "shahad"
+    ],
+    "energy_kcal": 304.0,
+    "protein_g": 0.3,
+    "carb_g": 79.5,
+    "fat_g": 0.0
+  },
+  "J001": {
+    "name": "Idli (steamed rice cake)",
+    "aliases": [
+      "idli",
+      "idly",
+      "steamed idli"
+    ],
+    "energy_kcal": 154.0,
+    "protein_g": 4.2,
+    "carb_g": 32.0,
+    "fat_g": 0.6
+  },
+  "J002": {
+    "name": "Dosa (plain rice crepe)",
+    "aliases": [
+      "dosa",
+      "plain dosa",
+      "masala dosa"
+    ],
+    "energy_kcal": 168.0,
+    "protein_g": 3.9,
+    "carb_g": 33.0,
+    "fat_g": 2.4
+  },
+  "J003": {
+    "name": "Sambar",
+    "aliases": [
+      "sambar",
+      "sambhar",
+      "toor dal curry"
+    ],
+    "energy_kcal": 52.0,
+    "protein_g": 3.2,
+    "carb_g": 7.5,
+    "fat_g": 1.2
+  },
+  "J004": {
+    "name": "Coconut chutney",
+    "aliases": [
+      "coconut chutney",
+      "nariyal chutney"
+    ],
+    "energy_kcal": 200.0,
+    "protein_g": 2.1,
+    "carb_g": 10.5,
+    "fat_g": 18.0
+  },
+  "J005": {
+    "name": "Upma",
+    "aliases": [
+      "upma",
+      "uppma",
+      "rava upma"
+    ],
+    "energy_kcal": 160.0,
+    "protein_g": 3.8,
+    "carb_g": 27.0,
+    "fat_g": 4.5
+  },
+  "J006": {
+    "name": "Uttapam",
+    "aliases": [
+      "uttapam",
+      "uthappam",
+      "oothappam"
+    ],
+    "energy_kcal": 186.0,
+    "protein_g": 5.5,
+    "carb_g": 32.0,
+    "fat_g": 4.0
+  },
+  "J007": {
+    "name": "Vada (fried lentil fritter)",
+    "aliases": [
+      "vada",
+      "wada",
+      "medu vada",
+      "urad vada"
+    ],
+    "energy_kcal": 310.0,
+    "protein_g": 9.4,
+    "carb_g": 34.0,
+    "fat_g": 15.0
+  },
+  "K001": {
+    "name": "Chai (Indian spiced tea with milk)",
+    "aliases": [
+      "chai",
+      "tea",
+      "indian tea",
+      "masala chai",
+      "milk tea",
+      "adrak chai"
+    ],
+    "energy_kcal": 42.0,
+    "protein_g": 1.4,
+    "carb_g": 4.8,
+    "fat_g": 1.8
+  },
+  "K002": {
+    "name": "Coffee with milk",
+    "aliases": [
+      "coffee",
+      "cafe",
+      "coffee with milk",
+      "filter coffee"
+    ],
+    "energy_kcal": 35.0,
+    "protein_g": 1.2,
+    "carb_g": 3.5,
+    "fat_g": 1.5
+  },
+  "K003": {
+    "name": "Coconut water",
+    "aliases": [
+      "coconut water",
+      "nariyal pani",
+      "nariyal paani"
+    ],
+    "energy_kcal": 19.0,
+    "protein_g": 0.7,
+    "carb_g": 3.7,
+    "fat_g": 0.2
+  },
+  "K004": {
+    "name": "Lemon juice",
+    "aliases": [
+      "lemon juice",
+      "nimbu pani",
+      "nimboo pani",
+      "lemonade"
+    ],
+    "energy_kcal": 29.0,
+    "protein_g": 0.7,
+    "carb_g": 6.9,
+    "fat_g": 0.3
+  },
+  "L001": {
+    "name": "Dal (cooked lentils)",
+    "aliases": [
+      "dal",
+      "daal",
+      "lentil soup",
+      "dal fry",
+      "lentil curry"
+    ],
+    "energy_kcal": 93.0,
+    "protein_g": 5.5,
+    "carb_g": 13.8,
+    "fat_g": 2.1
+  },
+  "L002": {
+    "name": "Rajma masala (kidney bean curry)",
+    "aliases": [
+      "rajma masala",
+      "rajma curry"
+    ],
+    "energy_kcal": 115.0,
+    "protein_g": 6.5,
+    "carb_g": 16.0,
+    "fat_g": 3.0
+  },
+  "L003": {
+    "name": "Chole masala (chickpea curry)",
+    "aliases": [
+      "chole masala",
+      "chhole masala",
+      "chana masala",
+      "chole"
+    ],
+    "energy_kcal": 145.0,
+    "protein_g": 7.5,
+    "carb_g": 18.0,
+    "fat_g": 4.5
+  },
+  "L004": {
+    "name": "Palak paneer (spinach with cottage cheese)",
+    "aliases": [
+      "palak paneer",
+      "saag paneer"
+    ],
+    "energy_kcal": 156.0,
+    "protein_g": 8.0,
+    "carb_g": 5.0,
+    "fat_g": 11.5
+  },
+  "L005": {
+    "name": "Paneer butter masala",
+    "aliases": [
+      "paneer butter masala",
+      "butter paneer",
+      "paneer makhani"
+    ],
+    "energy_kcal": 190.0,
+    "protein_g": 8.5,
+    "carb_g": 7.5,
+    "fat_g": 14.0
+  },
+  "L006": {
+    "name": "Aloo gobi (potato cauliflower)",
+    "aliases": [
+      "aloo gobi",
+      "alu gobi",
+      "potato cauliflower"
+    ],
+    "energy_kcal": 85.0,
+    "protein_g": 2.5,
+    "carb_g": 12.5,
+    "fat_g": 3.0
+  },
+  "L007": {
+    "name": "Aloo matar (potato peas)",
+    "aliases": [
+      "aloo matar",
+      "alu matar",
+      "potato peas"
+    ],
+    "energy_kcal": 95.0,
+    "protein_g": 3.0,
+    "carb_g": 14.0,
+    "fat_g": 3.2
+  },
+  "L008": {
+    "name": "Baingan bharta (roasted eggplant)",
+    "aliases": [
+      "baingan bharta",
+      "baigan bharta",
+      "eggplant curry"
+    ],
+    "energy_kcal": 60.0,
+    "protein_g": 1.8,
+    "carb_g": 6.0,
+    "fat_g": 3.5
+  },
+  "L009": {
+    "name": "Vegetable curry (mixed)",
+    "aliases": [
+      "vegetable curry",
+      "sabzi",
+      "mixed vegetable",
+      "veg curry",
+      "sabzee"
+    ],
+    "energy_kcal": 70.0,
+    "protein_g": 2.5,
+    "carb_g": 8.5,
+    "fat_g": 3.0
+  },
+  "L010": {
+    "name": "Khichdi (rice and lentils)",
+    "aliases": [
+      "khichdi",
+      "khichri",
+      "rice lentil porridge"
+    ],
+    "energy_kcal": 105.0,
+    "protein_g": 4.8,
+    "carb_g": 19.0,
+    "fat_g": 1.5
+  },
+  "L011": {
+    "name": "Biryani (chicken)",
+    "aliases": [
+      "chicken biryani",
+      "biryani",
+      "dum biryani",
+      "murg biryani"
+    ],
+    "energy_kcal": 198.0,
+    "protein_g": 12.0,
+    "carb_g": 27.0,
+    "fat_g": 5.0
+  },
+  "L012": {
+    "name": "Pulao (vegetable rice)",
+    "aliases": [
+      "pulao",
+      "pulav",
+      "veg pulao",
+      "vegetable pulao"
+    ],
+    "energy_kcal": 155.0,
+    "protein_g": 3.5,
+    "carb_g": 30.0,
+    "fat_g": 2.5
+  },
+  "L013": {
+    "name": "Raita (yogurt condiment)",
+    "aliases": [
+      "raita",
+      "boondi raita",
+      "cucumber raita"
+    ],
+    "energy_kcal": 65.0,
+    "protein_g": 3.2,
+    "carb_g": 5.5,
+    "fat_g": 3.2
+  },
+  "L014": {
+    "name": "Halwa (semolina sweet)",
+    "aliases": [
+      "halwa",
+      "rava halwa",
+      "suji halwa",
+      "sheera"
+    ],
+    "energy_kcal": 280.0,
+    "protein_g": 3.5,
+    "carb_g": 42.0,
+    "fat_g": 10.5
+  },
+  "L015": {
+    "name": "Kheer (rice pudding)",
+    "aliases": [
+      "kheer",
+      "rice pudding",
+      "payasam",
+      "payesh"
+    ],
+    "energy_kcal": 150.0,
+    "protein_g": 4.0,
+    "carb_g": 26.0,
+    "fat_g": 3.5
+  },
+  "L016": {
+    "name": "Poha (flattened rice dish)",
+    "aliases": [
+      "poha dish",
+      "aloo poha",
+      "batata poha",
+      "kanda poha"
+    ],
+    "energy_kcal": 130.0,
+    "protein_g": 2.5,
+    "carb_g": 26.0,
+    "fat_g": 2.5
+  },
+  "L017": {
+    "name": "Pav bhaji",
+    "aliases": [
+      "pav bhaji",
+      "pavbhaji"
+    ],
+    "energy_kcal": 175.0,
+    "protein_g": 4.5,
+    "carb_g": 25.0,
+    "fat_g": 6.5
+  },
+  "L018": {
+    "name": "Chole bhature",
+    "aliases": [
+      "chole bhature",
+      "bhature",
+      "chhole bhature"
+    ],
+    "energy_kcal": 290.0,
+    "protein_g": 10.0,
+    "carb_g": 42.0,
+    "fat_g": 9.0
+  },
+  "L019": {
+    "name": "Dum aloo (spiced potato curry)",
+    "aliases": [
+      "dum aloo",
+      "dam aloo",
+      "spiced potato"
+    ],
+    "energy_kcal": 120.0,
+    "protein_g": 2.5,
+    "carb_g": 17.0,
+    "fat_g": 5.0
+  },
+  "L020": {
+    "name": "Matar paneer (peas cottage cheese)",
+    "aliases": [
+      "matar paneer",
+      "peas paneer",
+      "mattar paneer"
+    ],
+    "energy_kcal": 145.0,
+    "protein_g": 7.5,
+    "carb_g": 9.5,
+    "fat_g": 9.0
+  },
+  "M001": {
+    "name": "Samosa",
+    "aliases": [
+      "samosa",
+      "samosas",
+      "aloo samosa"
+    ],
+    "energy_kcal": 262.0,
+    "protein_g": 4.3,
+    "carb_g": 27.5,
+    "fat_g": 15.0
+  },
+  "M002": {
+    "name": "Pakora / Bhajia",
+    "aliases": [
+      "pakora",
+      "bhajia",
+      "pakoda",
+      "onion bhajia",
+      "vegetable pakora"
+    ],
+    "energy_kcal": 295.0,
+    "protein_g": 7.5,
+    "carb_g": 32.0,
+    "fat_g": 15.5
+  },
+  "M003": {
+    "name": "Murukku",
+    "aliases": [
+      "murukku",
+      "chakli"
+    ],
+    "energy_kcal": 500.0,
+    "protein_g": 9.0,
+    "carb_g": 63.0,
+    "fat_g": 24.0
+  },
+  "M004": {
+    "name": "Namkeen / Bhujia",
+    "aliases": [
+      "namkeen",
+      "bhujia",
+      "sev",
+      "mixture",
+      "salted snack"
+    ],
+    "energy_kcal": 534.0,
+    "protein_g": 12.0,
+    "carb_g": 55.0,
+    "fat_g": 30.0
+  },
+  "M005": {
+    "name": "Dhokla",
+    "aliases": [
+      "dhokla",
+      "khaman"
+    ],
+    "energy_kcal": 160.0,
+    "protein_g": 6.5,
+    "carb_g": 28.0,
+    "fat_g": 3.0
+  },
+  "N001": {
+    "name": "Gulab jamun",
+    "aliases": [
+      "gulab jamun",
+      "gulabjamun"
+    ],
+    "energy_kcal": 387.0,
+    "protein_g": 6.4,
+    "carb_g": 57.0,
+    "fat_g": 14.8
+  },
+  "N002": {
+    "name": "Barfi / Burfi",
+    "aliases": [
+      "barfi",
+      "burfi",
+      "kaju barfi",
+      "milk barfi"
+    ],
+    "energy_kcal": 398.0,
+    "protein_g": 9.5,
+    "carb_g": 55.0,
+    "fat_g": 16.0
+  },
+  "N003": {
+    "name": "Laddoo (besan)",
+    "aliases": [
+      "laddoo",
+      "laddu",
+      "besan laddoo"
+    ],
+    "energy_kcal": 456.0,
+    "protein_g": 9.5,
+    "carb_g": 57.0,
+    "fat_g": 22.0
+  },
+  "N004": {
+    "name": "Jalebi",
+    "aliases": [
+      "jalebi",
+      "imarti"
+    ],
+    "energy_kcal": 357.0,
+    "protein_g": 2.5,
+    "carb_g": 66.0,
+    "fat_g": 9.5
+  }
+}

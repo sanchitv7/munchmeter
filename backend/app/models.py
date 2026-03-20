@@ -38,7 +38,7 @@ class NutritionItem(BaseModel):
     protein: float
     carbs: float
     fat: float
-    source: str
+    source: str  # "ifct" | "usda" | "not_found"
 
 
 class NutritionLookupResponse(BaseModel):

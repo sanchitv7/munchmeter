@@ -8,8 +8,7 @@ async def transcribe_audio(audio_bytes: bytes, filename: str = "audio.webm") -> 
 
     transcription = await client.audio.transcriptions.create(
         file=(filename, audio_bytes),
-        model="whisper-large-v3",
-        language="en",
+        model="whisper-large-v3-turbo",
         response_format="text",
     )
     return transcription

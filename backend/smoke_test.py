@@ -1,10 +1,12 @@
 """
 Smoke test: extraction + nutrition lookup without the frontend.
 Run from backend/ with the venv active:
-    uv run python smoke_test.py
+    uv run python smoke_test.py          # full pipeline
+    uv run python smoke_test.py --usda   # USDA key check only
 """
 
 import asyncio
+import sys
 from app.services.ingredient_parser import extract_ingredients
 from app.services.nutrition import lookup_nutrition
 
@@ -43,4 +45,29 @@ async def main():
           f"fat={sum(i.fat for i in items):>5.1f}g")
 
 
-asyncio.run(main())
+async def usda_check():
+    """Quick USDA key smoke test — one lookup, no Gemini."""
+    import httpx
+    from app.config import settings
+
+    key = settings.usda_api_key
+    masked = key[:6] + "..." + key[-4:] if len(key) > 10 else key
+    print(f"=== USDA key check (key: {masked}) ===")
+
+    async with httpx.AsyncClient(timeout=10.0) as client:
+        resp = await client.get(
+            "https://api.nal.usda.gov/fdc/v1/foods/search",
+            params={"query": "egg", "api_key": key, "pageSize": 1},
+        )
+
+    if resp.status_code == 200:
+        food = resp.json().get("foods", [{}])[0]
+        print(f"  OK — got: {food.get('description', '(no description)')}")
+    else:
+        print(f"  FAIL {resp.status_code}: {resp.text}")
+
+
+if "--usda" in sys.argv:
+    asyncio.run(usda_check())
+else:
+    asyncio.run(main())

@@ -6,10 +6,12 @@ import os
 
 from app.database import init_db
 from app.routers import transcribe, extract, nutrition, meals
+from app.services.ifct import initialize as _ifct_initialize
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    _ifct_initialize()
     await init_db()
     yield
 
