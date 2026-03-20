@@ -42,7 +42,7 @@ Each step is a standalone endpoint so the frontend can chain them and display in
 | `routers/meals.py` | `POST /api/meals`, `GET /api/meals?date=YYYY-MM-DD` |
 | `services/whisper.py` | Groq AsyncGroq client, `whisper-large-v3` |
 | `services/ingredient_parser.py` | Gemini Flash structured output, Hindi/Hinglish normalisation |
-| `services/nutrition.py` | CalorieNinjas natural-language API; fallback to Open Food Facts |
+| `services/nutrition.py` | USDA FoodData Central lookup; unit-to-gram conversion; per-100g scaling |
 
 ### Database (SQLite)
 
@@ -56,5 +56,5 @@ Single HTML page (no build step). Uses `MediaRecorder` API to capture audio, the
 
 Copy `backend/.env.example` → `backend/.env` and fill in:
 - `GROQ_API_KEY`
-- `GOOGLE_API_KEY`
-- `CALORIENINJAS_API_KEY`
+- `GEMINI_API_KEY`
+- `USDA_API_KEY` (optional — defaults to `DEMO_KEY`)

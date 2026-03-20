@@ -39,10 +39,10 @@ Return ONLY valid JSON — an array of objects with keys: ingredient, quantity, 
 
 async def extract_ingredients(text: str) -> list[Ingredient]:
     """Use Gemini Flash to extract structured ingredients from a meal description."""
-    client = genai.Client(api_key=settings.google_api_key)
+    client = genai.Client(api_key=settings.gemini_api_key)
 
     response = await client.aio.models.generate_content(
-        model="gemini-2.0-flash-exp",
+        model="gemini-3.1-flash-lite-preview",
         contents=text,
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT,
