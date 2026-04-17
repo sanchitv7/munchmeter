@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "MunchMeter Backend (+ Frontend)",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "uvicorn", "app.main:app", "--reload"],
+      "cwd": "backend",
+      "port": 8000
+    }
+  ]
+}

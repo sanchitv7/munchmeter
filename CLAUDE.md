@@ -43,10 +43,20 @@ Each step is a standalone endpoint so the frontend can chain them and display in
 | `services/whisper.py` | Groq AsyncGroq client, `whisper-large-v3` |
 | `services/ingredient_parser.py` | Gemini Flash structured output, Hindi/Hinglish normalisation |
 | `services/nutrition.py` | USDA FoodData Central lookup; unit-to-gram conversion; per-100g scaling |
+| `services/ifct.py` | IFCT 2017 local database lookup; parallel fallback for Indian foods |
 
 ### Database (SQLite)
 
 Two tables: `meal_logs` (one row per meal slot per day) and `meal_log_items` (one row per ingredient, FK to `meal_logs`).
+
+### Data & Scripts
+
+- `data/ifct2017.json` — compiled IFCT 2017 dataset; regenerate with `uv run python scripts/compile_ifct.py`
+- `smoke_test.py` — end-to-end sanity check against a running server; run with `uv run python smoke_test.py`
+
+### Testing Notes
+
+- `asyncio_mode = "auto"` is set in `pyproject.toml` — no `@pytest.mark.asyncio` needed on async tests
 
 ### Frontend (`frontend/index.html`)
 
